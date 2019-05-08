@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: monospace;
+}
+
+$bar_color: rgb(175, 226, 177);
+$progress_color: rgb(43, 226, 43);
+
+#bar {
+    width: 100%;
+    background-color: $bar_color;
+
+    #progress {
+        width: 1%;
+        height: 30px;
+        background-color: $progress_color;
+    }
+}
+
+button{
+    margin-top: 10px;
+}
+
